@@ -4,14 +4,14 @@
     background-color: #003366;
 }
 .navbar .form-control {
-    border: 2px solid #ddd; /* dunne rand voor een moderne look */
-    border-radius: 50px; /* ronde hoeken */
-    padding: 0.5rem 1rem; /* interne ruimte voor beter uiterlijk */
-    box-shadow: none; /* geen schaduw */
-    transition: border-color 0.3s ease; /* overgang voor hover-effect */
+    border: 2px solid #ddd; 
+    border-radius: 50px; 
+    padding: 0.5rem 1rem; 
+    box-shadow: none; 
+    transition: border-color 0.3s ease; 
 }
 .navbar .form-control:focus {
-    border-color: #003366; /* blauwe rand bij focus */
+    border-color: #003366; 
     outline: none;
 }
 .navbar .btn-outline-secondary {
