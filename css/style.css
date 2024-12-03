@@ -4,7 +4,6 @@
     align-items: center;
     height: 80vh;
 }
-
 .contactw {
     width: 70%;
     max-width: 650px;
@@ -12,7 +11,6 @@
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
-
 .contactf .form-group {
     margin-bottom: 14px;
 }
@@ -21,7 +19,6 @@
     color: black;
     font-weight: bold;
 }
-
 .contactf input,
 .contactf textarea {
     width: 100%;
@@ -32,8 +29,7 @@
     font-size: 14px;
     color: black;
 }
-
-.submit-btn {
+.btn1 {
     width: 100%;
     padding: 10px;
     color: white;
@@ -45,13 +41,11 @@
     background-color: #003366; 
     
 }
-
-.submit-btn:hover {
+.s
+.btn1:hover {
     background-color: #00509e; 
 }
-
 .dblauw{
-    background-color: #003366;
     border-color: #003366;
     background-color: #003366;
 }
@@ -143,54 +137,7 @@ nav a:hover {
     width: 100%;
     max-width: 300px;
 }
-.search-bar input {
-    padding: 10px 20px;
-    border-radius: 25px;
-    border: 1px solid #003366; 
-    background-color: #f1f1f1;
-    color: #003366; 
-    width: 100%;
-    font-size: 14px;
-    transition: all 0.3s ease;
-}
-.search-bar input:focus {
-    outline: none;
-    border-color: #003366; 
-    background-color: #ffffff;
-    box-shadow: 0px 0px 8px rgba(0, 51, 102, 0.4); 
-}
-.intro {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 30px;
-    gap: 30px;
-}
-.intro-text {
-    flex: 1;
-}
-.intro-image {
-    flex: 1;
-    text-align: center;
-}
-.intro-image img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 50%; 
-    max-height: 250px;
-}
-.slideshow-container {
-    position: relative;
-    max-width: 100%;
-    margin: 20px 0;
-}
-.slide {
-    display: none;
-}
-.slide img {
-    width: 100%;
-    height: auto;
-}
+
 .prev, .next {
     position: absolute;
     top: 50%;
@@ -256,4 +203,52 @@ nav a:hover {
     .search-bar input {
         width: 90%;
     }
+}
+.search-bar input {
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px solid #003366; 
+    background-color: #f1f1f1;
+    color: #003366; 
+    width: 100%;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+.search-bar input:focus {
+    outline: none;
+    border-color: #003366; 
+    background-color: #ffffff;
+    box-shadow: 0px 0px 8px rgba(0, 51, 102, 0.4); 
+}
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+.intro-text {
+    flex: 1;
+}
+.intro-image {
+    flex: 1;
+    text-align: center;
+}
+.intro-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; 
+    max-height: 250px;
+}
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: 20px 0;
+}
+.slide {
+    display: none;
+}
+.slide img {
+    width: 100%;
+    height: auto;
 }
