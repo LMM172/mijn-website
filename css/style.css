@@ -1,0 +1,44 @@
+.asidekleur{
+    color: #003366;
+}
+.btnkleur{
+background-color: #003366;
+}
+a,
+a:hover {
+  text-decoration: none;
+  color: #003366;
+}
+.btn1 {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #003366;  
+}
+.dblauw{
+    border-color: #003366;
+    background-color: #003366;
+}
+.projecten-overzicht {
+    color: black;
+}
+.navbar-nav .nav-link {
+    color: #003366; 
+    font-weight: bold;
+    text-decoration: none;
+}
+.navbar .btn-outline-secondary:hover {
+    background-color: #003366; 
+    color: #fff; 
+}
+.blauwh1{
+    color: #003366;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
