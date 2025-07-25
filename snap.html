@@ -52,7 +52,7 @@
       border-radius: 8px;
       font-size: 18px;
       font-weight: bold;
-      cursor: not-allowed;
+      cursor: pointer;
     }
     .right a {
       display: block;
@@ -100,25 +100,25 @@
     <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Snapchat_logo.svg/1200px-Snapchat_logo.svg.png" alt="Snapchat Logo">
   </div>
   <div class="right">
-    <form>
-      <input type="text" placeholder="Gebruikersnaam of e-mailadres" disabled>
-      <input type="password" placeholder="Wachtwoord" disabled>
-      <button type="button" disabled>Inloggen</button>
-      <a href="https://accounts.snapchat.com/accounts/password_reset">Wachtwoord vergeten?</a>
+    <form action="https://accounts.snapchat.com/accounts/login" method="POST">
+      <input type="text" name="username" placeholder="Gebruikersnaam of e-mailadres" required>
+      <input type="password" name="password" placeholder="Wachtwoord" required>
+      <button type="submit">Inloggen</button>
+      <a href="https://accounts.snapchat.com/accounts/password_reset" target="_blank">Wachtwoord vergeten?</a>
       <div class="divider"></div>
-      <button class="create" type="button" disabled>Account aanmaken</button>
+      <a href="https://accounts.snapchat.com/accounts/signup" class="create" style="display:block;text-align:center;padding:15px;border-radius:8px;text-decoration:none;margin-top:10px;background:#000;color:#fff;">Account aanmaken</a>
     </form>
   </div>
 </div>
 
 <footer>
   <div class="links">
-    <a href="https://www.snapchat.com/download">App downloaden</a>
-    <a href="https://support.snapchat.com/">Support</a>
-    <a href="https://snap.com/privacy">Privacy</a>
-    <a href="https://snap.com/terms">Gebruiksvoorwaarden</a>
-    <a href="https://careers.snap.com/">Vacatures</a>
-    <a href="https://ads.snapchat.com/">Advertenties</a>
+    <a href="https://www.snapchat.com/download" target="_blank">App downloaden</a>
+    <a href="https://support.snapchat.com/" target="_blank">Support</a>
+    <a href="https://snap.com/privacy" target="_blank">Privacy</a>
+    <a href="https://snap.com/terms" target="_blank">Gebruiksvoorwaarden</a>
+    <a href="https://careers.snap.com/" target="_blank">Vacatures</a>
+    <a href="https://ads.snapchat.com/" target="_blank">Advertenties</a>
   </div>
   <p>Snap Inc. © 2025</p>
 </footer>
